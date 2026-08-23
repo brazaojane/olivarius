@@ -1,4 +1,4 @@
-# Olivarius (HTML/CSS/JS)
+# Olivarius
 
 Site fictício de serviços de desenvolvimento de software, em HTML, CSS e JavaScript puro.
 
