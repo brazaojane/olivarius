@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Olivarius — Desenvolvimento de Software</title>
+  <meta name="description" content="Olivarius: estúdio de desenvolvimento de software sob medida." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <span class="logo">OLIVARIUS</span>
+    <div class="nav-links">
+      <a href="#servicos">SERVIÇOS</a>
+      <a href="#sobre">SOBRE</a>
+      <a href="#contato">CONTATO</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <p class="eyebrow">DESENVOLVIMENTO DE SOFTWARE SOB MEDIDA</p>
+    <h1>Código que enraíza,<br />não que se apressa.</h1>
+    <p class="hero-text">
+      A Olivarius constrói software pensado para durar — arquitetura sólida,
+      decisões bem fundamentadas e evolução contínua, não entregas descartáveis.
+    </p>
+    <svg class="branch" viewBox="0 0 600 200" aria-hidden="true">
+      <path d="M -10 100 C 100 60, 200 140, 300 100 S 500 60, 610 100"
+            fill="none" stroke="#3F6B4F" stroke-width="1.5" opacity="0.6" />
+      <circle cx="80" cy="92" r="3.5" fill="#3F6B4F" />
+      <circle cx="180" cy="108" r="3.5" fill="#3F6B4F" />
+      <circle cx="300" cy="100" r="5" fill="#B98F4A" />
+      <circle cx="420" cy="108" r="3.5" fill="#3F6B4F" />
+      <circle cx="520" cy="92" r="3.5" fill="#3F6B4F" />
+    </svg>
+  </header>
+
+  <section id="servicos" class="services">
+    <h2>O que fazemos</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Desenvolvimento sob medida</h3>
+        <p>Sistemas web e mobile construídos do zero, alinhados à real necessidade do negócio.</p>
+      </div>
+      <div class="service-card">
+        <h3>Arquitetura e consultoria técnica</h3>
+        <p>Decisões de estrutura pensadas para escalar sem reescrever tudo em dois anos.</p>
+      </div>
+      <div class="service-card">
+        <h3>Manutenção e evolução</h3>
+        <p>Acompanhamento contínuo de sistemas já em produção — correções, melhorias, novas features.</p>
+      </div>
+      <div class="service-card">
+        <h3>Prototipagem e MVP</h3>
+        <p>Validação rápida de ideias com o mínimo necessário para testar no mundo real.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <p class="eyebrow eyebrow-light">SOBRE A OLIVARIUS</p>
+    <p class="about-text">
+      O nome vem da oliveira — árvore que leva décadas para atingir sua plena
+      produção, mas que depois sustenta gerações. É essa lógica que aplicamos
+      a cada linha de código: menos pressa, mais raiz.
+    </p>
+  </section>
+
+  <section id="contato" class="contact">
+    <h2>Fale com a gente</h2>
+    <form id="contact-form" class="contact-form">
+      <input type="text" id="name" placeholder="Seu nome" required />
+      <input type="email" id="email" placeholder="Seu e-mail" required />
+      <textarea id="message" placeholder="Conte um pouco sobre o projeto" rows="4"></textarea>
+      <button type="submit">ENVIAR</button>
+      <p id="form-feedback" class="form-feedback" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>OLIVARIUS — site fictício, feito para prática de front-end</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
